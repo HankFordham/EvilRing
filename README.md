@@ -9,7 +9,7 @@ tar -xzvf ngrok-v3-stable-linux-amd64.tgz
 chmod +x ngrok
 sudo mv ngrok /usr/local/bin/ngrok
 rm ngrok-v3-stable-linux-amd64.tgz
-ngrok config add-authtoken YOUR-AUTH-TOKEN-HERE```
+ngrok config add-authtoken YOUR-AUTH-TOKEN-HERE'''
 
 2.
   Create an ngrok TCP tunnel
