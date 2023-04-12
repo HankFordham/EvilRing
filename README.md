@@ -24,7 +24,8 @@ Setup:
 
 `ngrok tcp 4242`
 
-(Paid Version) - Recommended
+(Paid Version) - Recommended -
+
 Start your reserved TCP tunnel from ngrok dashboard and then connect to it from your terminal. 
 This way the connection is persistent anywhere in the world. 
 Replace the stars with your specific ngrok address and port number. 4242 will be the port we listen to locally for connections on metasploit.
