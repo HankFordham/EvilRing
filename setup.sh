@@ -21,3 +21,5 @@ echo "Installed jq version: $(jq --version)"
 
 # Print Python version
 echo "Installed Python version: $(python3 --version)"
+
+# Setup your ngrok reserved TCP address here: https://dashboard.ngrok.com/cloud-edge/tcp-addresses
