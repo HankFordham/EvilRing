@@ -59,8 +59,8 @@ This can be done with the proxmark3, chameleon tiny, or even just an NFC enabled
 
 `set LPORT 4242`
 
-`set ExitOnSession false'
+`set ExitOnSession false`
 
-'exploit -j'
+`exploit -j`
   
 7.  (Dont) go an hold onto some phones!
